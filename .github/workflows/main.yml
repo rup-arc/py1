@@ -2,11 +2,11 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ "master" ]  # or "main" if you're using main
+    branches: [ "master" ] 
 
 jobs:
   build-and-deploy:
-    runs-on: self-hosted  # IMPORTANT: use the self-hosted runner
+    runs-on: self-hosted 
 
     steps:
     - name: Checkout code
